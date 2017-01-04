@@ -1,7 +1,10 @@
 LOCAL_PATH := $(call my-dir)
 
 AMDGPU_asmparser_TBLGEN_TABLES := \
-  AMDGPUGenAsmMatcher.inc
+  AMDGPUGenAsmMatcher.inc \
+  AMDGPUGenInstrInfo.inc \
+  AMDGPUGenRegisterInfo.inc \
+  AMDGPUGenSubtargetInfo.inc
 
 AMDGPU_asmparser_SRC_FILES := \
   AMDGPUAsmParser.cpp
