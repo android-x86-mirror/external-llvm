@@ -69,6 +69,8 @@ llvm_post_static_libraries := \
   libLLVMOption \
   libLLVMSupport \
   libLLVMVectorize \
+  libLLVMRuntimeDyld \
+  libLLVMMCJIT \
 
 llvm_host_static_libraries := \
   libLLVMExecutionEngine \
